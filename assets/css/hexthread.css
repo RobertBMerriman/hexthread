@@ -1,0 +1,72 @@
+html, body {
+	font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+	border-left: 3px solid #ffffff; /* Changed through JS */
+	font-size: 48px;
+	font-weight: 400;
+	padding-left: 20px;
+}
+
+.main {
+	margin-top: 80px;
+}
+
+form input {
+	background: #f0f0f0;
+
+	border: none;
+	border-left: 8px solid #ffffff;
+
+	font-size: 36px;
+	padding: 20px;
+	width: 100%;
+
+	transition: background 1s, border-left 1s;
+}
+
+form input:focus {
+	background: #ffffff;
+	border-left: 8px solid #ffffff; /* Changed through JS */
+	box-shadow: none;
+	outline: none;
+}
+
+button.btn {
+	background: transparent;
+	border: none;
+	outline: none;
+
+	color: #ffffff; /* Changed through JS */
+	cursor: pointer;
+
+	font-size: 36px;
+
+	padding: 20px 24px;
+
+	transition: background 1s, color 1s;
+}
+
+button.btn:hover {
+	background: #ffffff; /* Changed through JS */
+	color: #ffffff;
+}
+
+.comments {
+	margin-top: 20px;
+	list-style: none;
+	padding-left: 0;
+	word-wrap: break-word;
+}
+
+li {
+	padding-left: 20px;
+	border-left: 6px solid #ffffff; /* Changed through JS */
+	font-size: 32px;
+	margin: 0 0 18px;
+}
+
+span.sig {
+	color: #888888;
+}
